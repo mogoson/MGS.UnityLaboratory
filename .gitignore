@@ -58,3 +58,8 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+/Unity5.0/Assets/MGS.Packages/ScriptTemplateEditor.meta
+/Unity5.0/Assets/MGS.Packages/ScriptTemplateEditor
+/Unity5.0/Temp
+/Unity5.0/Library
+/Unity5.0/obj
