@@ -38,18 +38,18 @@ Panel(root)				[ContentSizeFitter, VerticalLayoutGroup]
 
 2. Add **VerticalLayoutGroup** to the root gameobject.
 
+   Add **VerticalLayoutGroup** to the children gameobjects if need.
+
    ```tex
    Control Child Size:
    	Height = true;
    ```
 
-3. Add **VerticalLayoutGroup** to the children gameobjects if need.
+3. If child node with a **Text** component, the layout will auto calculate preferred size.
 
-4. If child node with a **Text** component, the layout will auto calculate preferred size.
+4. If child node with a **Image** component, the preferred size is base on the image; 
 
-5. If child node with a **Image** component, the preferred size is base on the image; 
-
-6. Add the **LayoutElement** component, and we can set a specific preferred size(width/height).
+5. Add the **LayoutElement** component, and we can set a specific preferred size(width/height).
 
    ```tex
    Preferred Height = 100;	//Example case.
